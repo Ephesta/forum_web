@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>$title</title> 
+        <header>
+            <img class="logo" src="logo.png" title="logo" alt="logo">
+            <div class="baslik" >Forum</div>
+            
+            <link rel="stylesheet" href="style.css">
+        </header>
+        <nav>
+            <table>
+                <tr>
+                    
+                    <td> <a href="" class="link">Ana Sayfa</a> </td>
+                    <td> 
+                    <form >
+                        <select class="kategoriler" name="forma" onchange="location = this.value;">
+                                <option value="muzik.php">Home</option>
+                                <option value="Contact.php">Contact</option>
+                                <option value="Sitemap.php">Sitemap</option>
+                            
+                        </select>
+                      </form>
+                    </td>
+                    <td> <a href="C:\xampp\htdocs\phpders\forum\magaza.php"class="link">Mağaza</a>  </td>
+                    <td> <a href=""class="link">Destek</a> </td>
+                    <td> <a href=""class="link">Mesaj </a></td>
+                    <td> <a href=""class="link">Profil</a> </td>
+                    <td> <input class="ara" type="text" placeholder="Ara"> </td>
+                </tr>
+            </table>
+        </nav>
+    </head>
+    <body>
+        <div class="icerik">
+        <aside>
+                <div class="pybaslik">Popüler Yazılar</div>
+                <div class="yazilar"><b>Lorem ipsum dolor sit amet<br></b>consectetur adipiscing elit. Sed laoreet felis ut diam ultricies, ut posuere purus feugiat</div>
+                <div class="yazilar"><b>Lorem ipsum dolor sit amet<br></b>consectetur adipiscing elit. Sed laoreet felis ut diam ultricies, ut posuere purus feugiat</div>
+                <div class="yazilar"><b>Lorem ipsum dolor sit amet<br></b>consectetur adipiscing elit. Sed laoreet felis ut diam ultricies, ut posuere purus feugiat</div>
+                <div class="yazilar"><b>Lorem ipsum dolor sit amet<br></b>consectetur adipiscing elit. Sed laoreet felis ut diam ultricies, ut posuere purus feugiat</div>
+        </aside> 
+        <article>
+            <div class="k_magaza">
+                <link rel="stylesheet" href="magaza.css">
+                <div class="sp_magaza">
+                    <h3>Sadakat Puanı Mağazası</h3>
+                    <a href="" class="sp_magaza_buton">> A</a>
+                    <a href="" class="sp_magaza_buton">> Ürün 1</a>
+                </div>
+                <div class="re_magaza">
+                    <h3>Mağaza</h3>
+                    <a href="" class="re_magaza_buton">> A</a>
+                    <a href="" class="re_magaza_buton">> Ürün 1</a>
+                </div>
+            </div>
+
+
+            <!--<div class="k_profil_icerik">
+                <link rel="stylesheet" href="kategori_profil.css">
+                <div class="k_profil_sol">
+                    <div class="k_profil_baslik"><h4>Profil</h4></div>
+                    <div><img class="k_profil_pp" src="profil.png" title="pp" alt="kullanıcı"></div>
+                    <div class="k_profil_veri">
+                      <div class="userID">User ID:</div>
+                      <p class="k_profil_nitelik">Rütbe:</p>
+                      <p class="k_profil_nitelik">Unvan:</p> 
+                      <p class="k_profil_nitelik">Yetki:</p><br>
+                      <p class="k_profil_nitelik">Sadakat Puani:</p> 
+                      <p class="k_profil_nitelik">Bakiye:</p>
+                      <p class="k_profil_nitelik">Arkadaşlar:</p>  
+                    </div>
+                </div>
+            <div class="k_profil_aksiyon">
+                <a href="" class="k_profil_buton">Mesaj At</a>
+                <a href="" class="k_profil_buton">Arkadaş Ekle</a>
+                <a href="" class="k_profil_buton">Takip Et</a>
+                <a href="" class="k_profil_buton">Engelle</a>
+                <a href="" class="k_profil_buton">Bildir</a>
+            </div>
+            <div class="k_profil_sag"><h3>Selamlar<br></h3>
+            <p>Bir islem yapmaya kalktığınızda burada gözükecek</p><br>
+            <p>Bildirimler de burada gözükecek</p><br>
+            </div>
+        </div>
+
+
+ <div id="En Son Yazılanlar">
+                <div class="esybaslik">En Son Yazılanlar</div>
+            </div>
+            <div class="yazilar"><b>Pellentesque eget eros quam.<br></b>Vestibulum scelerisque, nisl vel suscipit molestie, lectus nulla pellentesque ligula, et tempus ex quam sit amet erat. Vestibulum tristique nunc nec urna tempus tempor.</div>
+            <div class="yazilar"><b>Pellentesque eget eros quam.<br></b>Vestibulum scelerisque, nisl vel suscipit molestie, lectus nulla pellentesque ligula, et tempus ex quam sit amet erat. Vestibulum tristique nunc nec urna tempus tempor.</div>
+            <div class="yazilar"><b>Pellentesque eget eros quam.<br></b>Vestibulum scelerisque, nisl vel suscipit molestie, lectus nulla pellentesque ligula, et tempus ex quam sit amet erat. Vestibulum tristique nunc nec urna tempus tempor.</div>
+            <div class="yazilar"><b>Pellentesque eget eros quam.<br></b>Vestibulum scelerisque, nisl vel suscipit molestie, lectus nulla pellentesque ligula, et tempus ex quam sit amet erat. Vestibulum tristique nunc nec urna tempus tempor.</div>
+-->
+        </article>
+        <div class="profil">    
+            <div class="oturum">
+                <div class="oturum-giris">
+                    <h1>Üye Girişi</h1>
+                    <form action="../VeriTabanı/islem.php" method="post">
+                        <input type="text" name="kullanici_adi" placeholder="Kullanıcı Adı" >
+                        <input type="password" name="parola" placeholder="Şifre" >
+                        <button type="submit" name="giris">Giriş Yap</button>
+                    </form>
+                </div>
+                <div class="oturum-kayit">
+                    <h1>Üye Ol</h1>
+                    <form action="../VeriTabanı/islem.php" method="post">
+                        <input type="text" name="kullanici_adi" placeholder="Kullanıcı Adı" >
+                        <input type="password" name="parola" placeholder="Şifre" >
+                        <button type="submit" name="kayit">Kayıt Ol</button>
+                    </form>
+    
+    
+    
+                </div>
+    
+    
+    
+        </div>
+           
+            
+            
+
+            
+        </div>
+<div class="footer">
+    <div class="footer_icerik">
+        <div class="footer_baslik">Forum</div>
+        <div class="footer_baslik">Mağaza</div>
+        <div class="footer_baslik">Destek</div>
+        <div class="footer_baslik">Mesaj</div>
+        <div class="footer_baslik">Profil</div>
+        <div class="footer_baslik">Ara</div>
+    </div>
+    <h4>2025e girdik</h4>
+
+</div>
+    </body>
+
+
+</html>

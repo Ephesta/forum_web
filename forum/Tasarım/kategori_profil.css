@@ -1,0 +1,51 @@
+.k_profil_icerik{
+    display: flex;
+}
+
+.k_profil_baslik{
+    border-bottom: 1px solid lightgray ;
+    width: 85px;
+    height: 24px;
+    font-size: 18px;
+    margin-left: 33px;
+}
+.k_profil_pp{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.k_profil_veri{
+    text-align: left;
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.k_profil_nitelik{
+    margin-bottom: 5px;
+    width: 100px;
+}
+.k_profil_aksiyon{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 450px;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin-top: 10px;
+    border-right: 2px solid lightgray;
+
+}
+.k_profil_buton{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 25px;
+
+}
+.k_profil_sag{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 25px;
+}

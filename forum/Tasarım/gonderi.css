@@ -1,0 +1,24 @@
+.gonderi_yazi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.textarea{
+    height: 250px;
+    width: 500px;
+}
+.gonderi_form{
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.gonderi_baslik{
+    text-align: center;
+    width: 450px;
+    height: 25px;
+    border: gray;
+}

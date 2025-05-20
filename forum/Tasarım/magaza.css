@@ -1,0 +1,36 @@
+.k_magaza{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.sp_magaza{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid lightgray;
+}
+.re_magaza{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.sp_magaza_buton{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    
+}
+.re_magaza_buton{
+    display: inline-flex;
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
